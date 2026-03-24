@@ -1,0 +1,228 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\hackathon\\projects\\plasticatch-main\\contracts\\src\\CleanupEventPool.sol": {
+      "lastModificationDate": 1773975339704,
+      "contentHash": "015d850e025d23275a55f9dd572d970c",
+      "sourceName": "src/CleanupEventPool.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "CleanupEventPool"
+      ]
+    },
+    "D:\\hackathon\\projects\\plasticatch-main\\contracts\\src\\CollectorRegistry.sol": {
+      "lastModificationDate": 1773975339705,
+      "contentHash": "373b2482533e818750a7bebf583f109e",
+      "sourceName": "src/CollectorRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "CollectorRegistry"
+      ]
+    },
+    "D:\\hackathon\\projects\\plasticatch-main\\contracts\\src\\ReputationOracle.sol": {
+      "lastModificationDate": 1773975339711,
+      "contentHash": "fa78638454a8ff32c9a372c1a25db7ad",
+      "sourceName": "src/ReputationOracle.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./CollectorRegistry.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "ReputationOracle"
+      ]
+    },
+    "D:\\hackathon\\projects\\plasticatch-main\\contracts\\src\\PRCToken.sol": {
+      "lastModificationDate": 1773975339710,
+      "contentHash": "002aa3fffd13194023701bd9c222d587",
+      "sourceName": "src/PRCToken.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./CollectorRegistry.sol",
+        "./StationRegistry.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "PRCToken"
+      ]
+    },
+    "D:\\hackathon\\projects\\plasticatch-main\\contracts\\src\\StationRegistry.sol": {
+      "lastModificationDate": 1773975339712,
+      "contentHash": "55148c4a097893c6e6815729f76d8505",
+      "sourceName": "src/StationRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "StationRegistry"
+      ]
+    },
+    "D:\\hackathon\\projects\\plasticatch-main\\contracts\\src\\CorporateVault.sol": {
+      "lastModificationDate": 1773975339709,
+      "contentHash": "fd5efb3a00de4a645af85939982541f9",
+      "sourceName": "src/CorporateVault.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./PRCToken.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "CorporateVault"
+      ]
+    }
+  }
+}
