@@ -253,6 +253,36 @@ The complete schema (all tables, policies, indexes, and RPCs in one file) is at 
 
 ---
 
+## Screenshot
+
+![PlastiCatch](public/screenshot.png)
+
+---
+
+## Deployed Resources (Testnet)
+
+| Resource | ID |
+|---|---|
+| Operator Account | `0.0.8351761` |
+| Attestation Topic | `0.0.8352218` |
+| DID Topic | `0.0.8352221` |
+| Leaderboard Topic | `0.0.8352222` |
+| Dispute Topic | `0.0.8352224` |
+| Event Topic | `0.0.8352225` |
+| Impact Agent Inbound | `0.0.8352227` |
+| Impact Agent Response | `0.0.8352228` |
+| Treasury Account | `0.0.8352229` |
+| Payment Pool | `0.0.8352230` |
+| PRC Vault | `0.0.8352231` |
+| CollectorRegistry | `0xD6A3b654c28DB28aAe3CecC712e7745A6FAb8BaA` |
+| StationRegistry | `0xE35DC9b024aFCD350Bb526AFF30917cc2812C1a9` |
+| PRCToken | `0xB9358fDdF94eB48D8A2E25Ba4D9194d651e5e0B1` |
+| CorporateVault | `0x1813444cC697dD8bfeE230D2B0492B1CBCDccc60` |
+| CleanupEventPool | `0x377234b596e9dDfFD17092E23fAD5088FC0156aE` |
+| ReputationOracle | `0x350bEf092588618d4337fBcFD8c5f14803CC6EE6` |
+
+---
+
 ## Other Documentation
 
 - [TESTING.md](./TESTING.md) --- Manual testing guide with step-by-step flows
